@@ -1,7 +1,9 @@
 ---
 title: Pbx3cxFetchAndStoreBackups
 author: Cyrille Georgel < cyrille@bluerocktel.com >
-tags: bluerockel, 3cx, backups
+tags:
+  - 3cx
+  - backups
 status: Done
 ---
 
@@ -14,3 +16,9 @@ The project employs a collection of bash scripts tailored to address the specifi
 ## Repository
 
 [https://github.com/bluerocktel/Pbx3cxFetchAndStoreBackups](https://github.com/bluerocktel/Pbx3cxFetchAndStoreBackups)
+
+
+## Exception list
+
+
+
