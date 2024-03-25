@@ -15,6 +15,11 @@ To a variable:
 lines_count=$(wc -l * | tail -n 1 | awk '{print $1}')
 ```
 
+### De-duplicating
+
+```
+sort input.csv | uniq > output.csv
+```
 ###  awk
 
 Extracting the unique values of column 8:
@@ -48,7 +53,7 @@ awk -F ';' '$7 != 0' myfile.cdr
 Extracting where column 6 is not "incoming":
 
 ```
-awd -F ';' '$6 != "incoming"' myfile.cdr
+awk -F ';' '$6 != "incoming"' myfile.cdr
 ```
 
 De-duplicating:
