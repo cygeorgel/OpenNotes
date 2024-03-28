@@ -25,7 +25,19 @@ sort input.csv | uniq > output.csv
 Extracting the unique values of column 8:
 
 ```
-awk -F ";" '{ a[$8]++ } END { for (b in a) { if (b >= 1) print b } }' file.cdr > extensions.csv
+awk -F ";" '!seen[$8]++ { print $8 }' file.cdr
+```
+
+This works as well:
+
+```
+awk -F ";" '{ a[$8]++ } END { for (b in a) { if (b >= 1) print b } }' file.cdr
+```
+
+Extracting the unique values of column 1, with the first value of column 2 for each :
+
+```
+awk -F ";" '!seen[$1]++ { values[$1] = $2 } END { for (key in values) print key, values[key] }' file.cdr
 ```
 
 Summing column 7:
