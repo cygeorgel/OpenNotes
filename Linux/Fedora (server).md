@@ -14,7 +14,7 @@ dnf install -y vim-default-editor --allowerasing
 
 ### Change SSH port
 
-Edit a file /etc/ssh/sshd_config.d/cg.conf
+Edit a file /etc/ssh/sshd_config.d/custom.conf
 
 ```
 Port **022
