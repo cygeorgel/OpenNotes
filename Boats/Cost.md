@@ -1,0 +1,1 @@
+https://www.sailboat-cruising.com/true-cost-of-boat-ownership.html
