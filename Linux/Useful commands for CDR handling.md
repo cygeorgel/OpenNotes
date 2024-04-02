@@ -1,5 +1,5 @@
 
-Here are some useful Linux commands for handling large CDR files.
+Her are some useful Linux commands for handling large CDR files.
 
 ###  Simple lines count
 
