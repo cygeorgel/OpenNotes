@@ -1,7 +1,12 @@
-	```
+
+# MySQL 
+
+## Create database
+
+```
 docker exec -it mysql bash
 ```
-
+`
 ```
 mysql -uroot -proot
 ```
@@ -11,6 +16,8 @@ mysql> CREATE DATABASE my_db;
 mysql> GRANT ALL PRIVILEGES ON my_db.* TO 'default'@'%';
 mysql> FLUSH PRIVILEGES;
 ```
+
+## Restoring from dump
 
 ```
 docker cp my_dump.sql.gz mysql:/tmp
