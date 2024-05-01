@@ -1,3 +1,4 @@
+# Get the Customer with their Pbx3cx Hosts
 
 The customer has a reference within the BlueRockTEL instance and a code within the Pbx3cx Hosts API. You get this code by passing the tenant code and the tenant reference to the "Get customer by origin"  route :
 
@@ -46,5 +47,6 @@ api/v1.2/customers/abcdef
 		}
 	]
 ```
+
 
 

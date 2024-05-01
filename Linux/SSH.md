@@ -1,4 +1,4 @@
-# SSH
+# SSH (cheat sheet)
 
 ```
 ssh-keygen
@@ -8,8 +8,14 @@ ssh-keygen
 ssh-copy-id user@host
 ```
 
-##  ~/.ssh/config
-###  Test env
+##  Correct permissions on .ssh
+
+```
+chmod 700 /home/user/.ssh
+chmod 600 /home/user/.ssh/authorized_keys
+```
+
+##  ~/.ssh/config (in test env)
 
 ```
 StrictHostKeyChecking no
