@@ -1,18 +1,23 @@
-The first things I do after installing a new Fedora machine (server).
 
-###  Install latest updates
+
+# Fedora (server)
+
+Things I do after installing a new Fedora server.
+
+
+##  Install latest updates
 
 ```
 dnf update
 ```
 
-###  Install Vim as default editor
+##  Install Vim as default editor
 
 ```
 dnf install -y vim-default-editor --allowerasing
 ```
 
-### Change SSH port
+## Change SSH port
 
 Edit a file /etc/ssh/sshd_config.d/custom.conf
 
@@ -20,7 +25,7 @@ Edit a file /etc/ssh/sshd_config.d/custom.conf
 Port **022
 ```
 
-#### Configure SELinux for the new port
+### Configure SELinux for the new port
 
 ```
 dnf install policycoreutils-python-utils
@@ -42,7 +47,7 @@ expected result:
 ssh_port_t                     tcp      **022, 22
 ```
 
-### Install and configure Firewalld
+## Install and configure Firewalld
 
 ```
 dnf install firewalld
@@ -53,7 +58,7 @@ firewall-cmd --reload
 systemctl restart sshd
 ```
 
-### Install and configure Fail2ban
+## Install and configure Fail2ban
 
 ```
 dnf install fail2ban
@@ -79,7 +84,7 @@ Then restart Fail2ban
 systemctl restart fail2ban
 ```
 
-### Disable password authentication
+## Disable password authentication
 
 Edit /etc/ssh/sshd_config.d/50-cloud-init.conf
 
@@ -87,7 +92,7 @@ Edit /etc/ssh/sshd_config.d/50-cloud-init.conf
 PasswordAuthentication no
 ```
 
-### Install Cron
+## Install Cron
 
 ```
 dnf install cronie
@@ -95,7 +100,7 @@ systemctl start crond.service
 systemctl enable crond.service
 ```
 
-### Install mailx
+## Install mailx
 
 To provide you with a handy way to send emails from bash scripts.
 
@@ -121,18 +126,22 @@ set smtp-auth-password={password}
 set from={from}
 ```
 
-### Other stuff
+## Other stuff
 
 Not mandatory, this is for comfort
 
-#### tmux
+### tmux
 
 ```
 dnf install tmux
 ```
 
-#### htop
+### htop
 
 ```
 dnf install htop
 ```
+
+
+
+
