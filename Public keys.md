@@ -1,0 +1,6 @@
+# Public keys
+## SSH
+
+```
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzX7aJL//ZvAfGy+NnzKw6suZMaRe5iScr/FxQcd3mkM4EL6ZSq8q4UeY2qhg8dMI4hVDyN4zXb5moCOwFas36yQ7AkleKkAQ2Rhlfy70iCZ6tRx1wbYpm4kpm8d99HNi+tnSlhOTk/hSZcA7za5fnfjISrnw72Cc9+sqF4GRi8v4uPB4B3UaUL/Qd9oiG2oaIW7v8J4CrkqEr3I7OjRYdhwBNLXd+Ma7ue1VgKEluL3PmYMzNdSoZjaYFNnz0tVJtCzMP+DzK/FjxiyeKLEMIEKDxnEviABAKfLZezzsiCK5DdZ2i4cu5iKv9vzrsZ3BugrJgX5FXNcRwybGAaobL cyrille@bluerock
+```
