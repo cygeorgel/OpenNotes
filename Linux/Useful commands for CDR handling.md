@@ -44,7 +44,7 @@ awk -F ";" '!seen[$1]++ { values[$1] = $2 } END { for (key in values) print key,
 Summing column 7:
 
 ```
-	awk -F' ' '{sum+=$7;} END{print sum;}' files*.cdr
+awk -F' ' '{sum+=$7;} END{print sum;}' files*.cdr
 ```
 
 ```
