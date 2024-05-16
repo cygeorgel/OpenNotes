@@ -1,5 +1,3 @@
-
-
 # Fedora (server)
 
 Things I do after installing a new Fedora server.
