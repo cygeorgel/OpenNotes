@@ -14,5 +14,5 @@ libreoffice --headless --convert-to csv --outdir /path file.xlsx
 ##  Convert CSV to Excel
 
 ```
-libreoffice --headless --convert-to xlsx file.csv
+	libreoffice --headless --convert-to xlsx file.csv
 ```
