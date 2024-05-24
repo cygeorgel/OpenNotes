@@ -1,4 +1,4 @@
-# Laravel Filament
+	# Laravel Filament
 
 ```
 composer require filament/filament:"^3.2" -W
