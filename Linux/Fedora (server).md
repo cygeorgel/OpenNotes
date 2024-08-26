@@ -124,6 +124,12 @@ set smtp-auth-password={password}
 set from={from}
 ```
 
+## Git
+
+```
+dnf -y install git-all
+```
+
 ## Other stuff
 
 Not mandatory, this is for comfort
@@ -140,6 +146,21 @@ dnf install tmux
 dnf install htop
 ```
 
+### kitty
 
+```
+dnf install kitty
+```
+
+## Docker
+
+```
+dnf -y install dnf-plugins-core
+dnf -y config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
+dnf -y install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+groupadd docker && usermod -aG docker fedora
+systemctl enable docker
+systemctl start docker
+```
 
 
