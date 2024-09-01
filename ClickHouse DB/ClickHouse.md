@@ -32,7 +32,7 @@ An introductory tutorial on ClickHouse, covering installation, setup, basic quer
 9. Common pitfalls and troubleshooting advice.
 10. Resources for further learning and community support.
 
-### TAKEAWAYS:
+# TAKEAWAYS:
 1. ClickHouse is a powerful columnar database optimized for real-time analytics.
 2. Installation and setup of ClickHouse are straightforward with provided guidelines.
 3. Basic SQL knowledge is sufficient to start querying in ClickHouse.
