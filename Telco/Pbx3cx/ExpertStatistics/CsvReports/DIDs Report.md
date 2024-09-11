@@ -1,16 +1,3 @@
----
-title: DIDs Reports
-author: Cyrille Georgel < cyrille@bluerocktel.com >
-tags:
-  - bluerocktel
-  - cx-engine
-  - 3CX
-  - statistics
-  - expert-statistics
-  - expert-stats
-status: Working
----
-
 # DIDs Report 
 
 ## Sample
