@@ -15,3 +15,14 @@
       }
   }
 ```
+
+
+directory : /rules
+filename 0144240001
+
+```
+											  {
+      "status": "open",
+      "destination": "1234"
+  }
+```
