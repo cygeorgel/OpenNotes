@@ -1,4 +1,6 @@
-# ClickHouse
+# ClickHouse Tutorial 
+
+by Hamed Karbasi
 
 ## Tutorial
 
