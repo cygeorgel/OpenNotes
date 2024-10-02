@@ -30,3 +30,9 @@ gunzip < my_dump.sql.gz | mysql -udefault -psecret -h127.0.0.1 my_db
 ```
 
 
+## Repairing all tables
+
+```
+mysqlcheck -uroot -proot --auto-repair --check --all-databases
+```
+
