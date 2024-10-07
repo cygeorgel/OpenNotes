@@ -1,8 +1,8 @@
 # Inbound rules
-
 ## Without specific hours:
 
-![[Pasted image 20241006151454.png]]
+![image](https://storage.gra.cloud.ovh.net/v1/AUTH_9c30d35f284f44b2bda08609e7c19f33/cyrille_public/20241006151126.png)
+
 
 ```
 
@@ -25,7 +25,7 @@
 
 *(shoud be fkidrulehours, of course it is a typo)*
 
-### API response
+### API response:
 
 ```
 
@@ -86,8 +86,7 @@
 
 ## With specific hours:
 
-![[Pasted image 20241006151427.png]]
-
+![image](https://storage.gra.cloud.ovh.net/v1/AUTH_9c30d35f284f44b2bda08609e7c19f33/cyrille_public/20241006151424.png)
 
 ```
 
@@ -108,6 +107,7 @@
 =>  idcalendar = 5817
 
 => fkdirulehours =>5
+### API response:
 
 ```
 [0184799461] => Array
@@ -138,13 +138,12 @@
 
 
 ------
-
-
-## More (07/10/2024)
+## More
 
 ### Test 1
 
-![[Pasted image 20241007054613.png]]
+![image](https://storage.gra.cloud.ovh.net/v1/AUTH_9c30d35f284f44b2bda08609e7c19f33/cyrille_public/20241006151445.png)
+
 
 ```
 = App\Models\Pbx3cxHostCalendar {#6135
@@ -162,7 +161,7 @@
 
 ### Test 2
 
-![[Pasted image 20241007055000.png]]
+![image](https://storage.gra.cloud.ovh.net/v1/AUTH_9c30d35f284f44b2bda08609e7c19f33/cyrille_public/20241007054611.png)
 
 ```
 = App\Models\Pbx3cxHostCalendar {#6135
@@ -180,8 +179,7 @@
 
 ### Test 3
 
-![[Pasted image 20241007055213.png]]
-
+![Image](https://storage.gra.cloud.ovh.net/v1/AUTH_9c30d35f284f44b2bda08609e7c19f33/cyrille_public/20241007055157.png)
 
 ```
 = App\Models\Pbx3cxHostCalendar {#6135
@@ -199,7 +197,8 @@
 
 ### Test 4
 
-![[Pasted image 20241007055900.png]]
+
+![Image](https://storage.gra.cloud.ovh.net/v1/AUTH_9c30d35f284f44b2bda08609e7c19f33/cyrille_public/20241007055843.png)
 
 ```
 = App\Models\Pbx3cxHostCalendar {#6135
@@ -214,5 +213,4 @@
   }
 
 ```
-
 
