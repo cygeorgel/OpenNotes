@@ -67,48 +67,91 @@
 	)
 
 ```
-array:20 [
-  0 => "604"
-  1 => "3082"
-  2 => "6"
-  3 => "1"
-  4 => "2"
-  5 => "3257"
-  6 => ""
-  7 => "0184799461"
-  8 => "5817"
-  9 => "12"
-  10 => "7. regle de reference"
-  11 => ""
-  12 => "t"
-  13 => "2"
-  14 => "3100"
-  15 => ""
-  16 => "f"
-  17 => "5"
-  18 => "3075"
-  19 => ""
-]
 
-array:20 [
-  0 => "604"
-  1 => "3082"
-  2 => "6"
-  3 => "1"
-  4 => "2"
-  5 => "3257"
-  6 => ""
-  7 => "0184799461"
-  8 => "5817"
-  9 => "12"
-  10 => "7. regle de reference"
-  11 => ""
-  12 => "t"
-  13 => "2"
-  14 => "3100"
-  15 => ""
-  16 => "f"
-  17 => "5"
-  18 => "3075"
-  19 => ""
-] 
+
+
+
+------
+
+
+
+##  Test
+
+![[Pasted image 20241007054613.png]]
+
+
+```
+= App\Models\Pbx3cxHostCalendar {#6135
+    id: 7525,
+    pbx3cx_host_code: "df7jol",
+    idcalendar: 5817,
+    dummy: 1,
+    fkdirulehours: 2,
+    pv_ignore_holidays: "0",
+    created_at: "2024-10-07 04:47:49",
+    updated_at: "2024-10-07 04:47:49",
+  }
+
+```
+
+
+## Test 2
+![[Pasted image 20241007055000.png]]
+
+```
+= App\Models\Pbx3cxHostCalendar {#6135
+    id: 7826,
+    pbx3cx_host_code: "df7jol",
+    idcalendar: 5817,
+    dummy: 1,
+    fkdirulehours: 2,
+    pv_ignore_holidays: "0",
+    created_at: "2024-10-07 04:50:23",
+    updated_at: "2024-10-07 04:50:23",
+  }
+
+```
+
+
+
+
+## Test 3
+
+![[Pasted image 20241007055213.png]]
+
+
+```
+= App\Models\Pbx3cxHostCalendar {#6135
+    id: 8428,
+    pbx3cx_host_code: "df7jol",
+    idcalendar: 5817,
+    dummy: 1,
+    fkdirulehours: 4,
+    pv_ignore_holidays: "0",
+    created_at: "2024-10-07 04:52:43",
+    updated_at: "2024-10-07 04:52:43",
+  }
+
+```
+
+
+
+## Test
+
+![[Pasted image 20241007055900.png]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
