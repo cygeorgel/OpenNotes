@@ -14,9 +14,8 @@ It would be nice it the title "Number" was automatically changed by the choice o
 
 Message "DID number is already used by an active rule" : then it should not be shown in the list.
 
-
 Error messages refer to "call queue" : they should be changed in order to reflect the change from "call queue" to "inbound rule"
-	
+
 It would ne nice to have a margin between content and borders.
 
 
