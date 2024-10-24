@@ -35,9 +35,31 @@ Also :
 
 If a resource is already attached to an existing inbound rule, it should not be available here. The best option should be to show it but make it impossible to select. Concertation with Thomas probably needed on this  point, in order to see how we do the filter.
 
+**Please note:**
+
+An item I forgot : are we right to make the rule name mandatory? I think it makes sense, but then we should show it with a star, like for the other elements.
 ## Inbound rule configuration view
 
-I come back with  my remarks later on this morning.
+First of all, here in the index :
+
+![](https://storage.gra.cloud.ovh.net/v1/AUTH_9c30d35f284f44b2bda08609e7c19f33/cyrille_public/20241024122914_2RYFH30wqfuugRgUbMHgpXKv3sH1vinNOvmdMx7hM2Z5Mym3nT9OS4J5fYvsMHPMpWJxeMQvxiVqyO9f.png)
+
+In order to match the names,  could we have the titles as : 
+-  "Nom de la règle"
+- "Active" (feminine form)
+- "Type de ressource"
+- "Ressource"
+
+Check errors with some parameters.
+
+Check if all values are correctly saved.
+
+In the header here, could you use the resource type, "type de ressource attachée  à la règle entrante", for example "803 (File d'attente)"
+
+![](https://storage.gra.cloud.ovh.net/v1/AUTH_9c30d35f284f44b2bda08609e7c19f33/cyrille_public/20241024124007_JOzlqR77oBdEpmoVeBk4yVdFcbwSr3KNZPsVnxFZB3Y71jx8UdukAZgY8Q0b9iyHHplgRLaPuX1Efm8M.png)
+
+
+
 
 
 
