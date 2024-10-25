@@ -60,11 +60,28 @@ In the header here, could you use the resource type, "type de ressource attaché
 
 
 
+---
 
+Some update, 25/10/2024:
 
+![](https://storage.gra.cloud.ovh.net/v1/AUTH_9c30d35f284f44b2bda08609e7c19f33/cyrille_public/20241025084725_LCHohGDKXk9Pn2d0FXfHRtde7CJFSfPpwlaZCtmeSWQmXx3aHYXIDEGHeUzDuOrOZaqNYQS18UWBYL0r.png)
 
+Could you replace "Delete règle entrante" by "Supprimer la règle entrante" ?
 
+![](https://storage.gra.cloud.ovh.net/v1/AUTH_9c30d35f284f44b2bda08609e7c19f33/cyrille_public/20241025084946_5ADv80TUyBWQdVKmz7WUnIGHoKufDvgndJd5GuYOfx4cnDHTnL3M6hl4ssFdOZ6FYm1RxPxMnx6I3Ssc.png)
 
+The type appears here, I suppose it is not expected.
 
+![](https://storage.gra.cloud.ovh.net/v1/AUTH_9c30d35f284f44b2bda08609e7c19f33/cyrille_public/20241025085142_ulHzuhlosUb4oa0gr9EKeIldLlfBwh6STkY5cXMadCPNyG1yGSUFTI95z3wRNW0SsiWRJIu9WMSFsrpu.png)
 
+This fails. Do you get why?
 
+## Inbound rule groups
+
+![](https://storage.gra.cloud.ovh.net/v1/AUTH_9c30d35f284f44b2bda08609e7c19f33/cyrille_public/20241025093012_QwdPw3ktMNGtag1MtPPl40INdGCyRorelSw5gtzHo2NeGZCuieiytMbDSG6kPMSj2zGprI3eVovmOTlU.png)
+
+Creating a group is not working for me. Nothing happens.
+
+![](https://storage.gra.cloud.ovh.net/v1/AUTH_9c30d35f284f44b2bda08609e7c19f33/cyrille_public/20241025093113_ObKFXIdAMouEEFReo7A8LkIYrxBBkerjwoSUW5IsPfQsa35JO3dP5ZAxBHOnDcaXCoK7MjgbxcKubg0q.png)
+
+For me (but this something to validate with Encom tech team) : the group should be responsible for changing time-spans and holidays, etc. But not the destination type and type, which should be defined inbound rule by inbound rule.
